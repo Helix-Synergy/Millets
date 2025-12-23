@@ -32,7 +32,7 @@ const links = [
     id: 'event-schedule',
     icon: CalendarCheck,
     label: 'Schedule',
-    link:"/foodtech-event-schedule"
+    link: "/millets-event-schedule"
   },
   {
     id: 'faq',

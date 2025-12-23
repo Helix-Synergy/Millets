@@ -24,7 +24,7 @@ const ScheduleCard = ({ time, plan, note, image }) => {
             </div>
             <div className="flex items-center gap-1">
               <MapPin size={18} />
-              <span>Barcelona | Spain</span>
+              <span>Vienna | Austria</span>
             </div>
           </div>
 

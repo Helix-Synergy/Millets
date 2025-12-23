@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 const faqLinks = {
-  tracks:"/foodtech-conference-tracks/" ,
+  tracks: "/millets-conference-tracks/" ,
   abstractSubmission: "/abstract-submission",
-  schedule:"/foodtech-event-schedule" ,
+  schedule: "/millets-event-schedule",
   email: "mailto:hello@helixconferences.com",
 
 };

@@ -31,7 +31,7 @@ MILLETS- Tracks
 
       {/* Call-to-action Buttons */}
       <div className=" mt-10 md:mt-10 flex flex-col md:flex-row gap-4 justify-center">
-        <Link to="/foodtech-conference-tracks/" >
+        <Link to= "/millets-conference-tracks/">
           <button className="bg-one text-white px-6 md:px-4 py-2 rounded-full text-sm md:text-base w-full md:w-auto text-center">
             Read More
           </button>

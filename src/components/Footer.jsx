@@ -6,11 +6,11 @@ import { ChevronRight, Mail, MapPin, Phone } from "lucide-react";
 
 const Footer = () => {
   const nav_links = [
-    { name: "About", link:"/about-foodtech-conclave" },
+    { name: "About", link:"/about-millets-conclave"},
     { name: "Executive Panel", link: "/executive-panel-members/" },
-    { name: "Tracks", link: "/foodtech-conference-tracks/" },
-    { name: "Orators", link: "/foodtech-orators"},
-    { name: "Schedule", link:  "/foodtech-event-schedule"},
+    { name: "Tracks", link:  "/millets-conference-tracks/"},
+    { name: "Orators", link:"/millets-orators"},
+    { name: "Schedule", link:  "/millets-event-schedule"},
     { name: "Venue", link: "/venue" },
     { name: "Event Partners", link: "/event_partners" },
     { name: "Contact", link: "/Contact" },

@@ -73,7 +73,7 @@
 // };
 
 // -------------------The code 1 is here-------------
-/** /** /** @type {import('tailwindcss').Config} */
+/** /** /** /** @type {import('tailwindcss').Config} */
 module.exports = {
   webpack(config) {
     config.module.rules.push({
@@ -96,31 +96,31 @@ module.exports = {
       },
 
       colors: {
-        /* Brand colors – matched to logo */
-        one: "#DDE46B",        // Soft lime-yellow (logo stroke)
-        accent: "#DDE46B",
-        greenBrand: "#DDE46B",
+        /* Brand / Accent – Coffee */
+        one: "#6F4E37",          // Coffee brown
+        accent: "#6F4E37",
+        greenBrand: "#6F4E37",
 
-        /* Backgrounds */
-        primary: "#0F1208",    // Deep olive-black (contrast safe)
-        secondary: "#171B0E",  // Soft dark olive
-        coal: "#0B0E06",       // Almost black olive
+        /* Backgrounds – Light Coffee */
+        primary: "#FAF7F2",      // Cream / milk foam
+        secondary: "#F1ECE4",    // Latte beige
+        coal: "#E6DED3",         // Light mocha
 
         /* Supporting / UI */
-        sky: "#EEF3A2",        // Very light lime highlight
-        orange: "#C9D85C",    // Muted yellow-green
-        lightGreen: "#F4F7C8", // Pastel lime background
+        sky: "#3E2C23",          // Dark coffee text
+        orange: "#A47148",       // Caramel accent
+        lightGreen: "#FFFFFF",   // White cards
 
         /* Track / row colors */
         track: {
-          odd: "#1C2112",
-          even: "#14180C",
-          green: "#DDE46B",
+          odd: "#EFE7DC",        // Light latte row
+          even: "#E5D9CC",       // Slightly darker row
+          green: "#6F4E37",      // Highlight coffee
         },
       },
 
       textShadow: {
-        "blue-950": "0px 0px 50px rgb(244, 255, 238)",
+        "blue-950": "0px 0px 25px rgba(111, 78, 55, 0.35)",
       },
 
       keyframes: {

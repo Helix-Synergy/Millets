@@ -4,7 +4,7 @@ import PanelMemberCard from "../components/ui/PanelMemberCard";
 import { Link } from "react-router-dom";
 import { banner_style } from "../Styles/styles";
 
-import page from "../assets/Images1/PageBannersPeptides.png"
+import page from "../assets/Images1/PageBannersPeptides.jpg"
 const Executive_members = () => {
   return (
     <section className="cw-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
@@ -29,7 +29,7 @@ const Executive_members = () => {
           Meet Our Distinguished Panel Members
         </h2>
         <p className="w-full md:w-2/3 text-sm md:text-base text-slate-600">
- Leading innovators, researchers, and industry experts from around the world sharing knowledge and driving the future of regenerative agriculture and agritech at MILLETS-2026.
+ Leading innovators, researchers, and industry experts from around the world sharing knowledge and Leading innovators, researchers, and industry experts from around the world sharing knowledge and advancing the future of millets, climate-resilient agriculture, and sustainable food systems at MILLETS-2026.
         </p>
       </div>
 

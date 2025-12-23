@@ -26,17 +26,22 @@ const data = {
     description: [
       <>
   
-        The World Forum on Regenerative Agritech, organized by Helix Conferences, is a distinguished international forum dedicated to advancing regenerative agricultural practices and next-generation agritech solutions that support environmental sustainability, economic resilience, and global food security.
-        The forum is designed to facilitate high-level knowledge exchange, interdisciplinary collaboration, and evidence-based discussions that accelerate the adoption of regenerative farming systems. Emphasis is placed on soil regeneration, biodiversity enhancement, climate-smart agriculture, precision agronomy, digital farming technologies, and <Link to="/"   className="
+   <Link to="/"   className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">
-        agri-biological innovations.</Link>
-        Through plenary sessions, keynote addresses, expert-led panels, technical workshops, and scientific research presentations, participants will gain strategic insights into emerging technologies, scalable regenerative models, and evolving global agricultural policies.
+        The World Conference on Millets & Climate-Resilient Agriculture,</Link>  organized by Helix Conferences, is a distinguished international forum dedicated to advancing millet-based cropping systems, climate-resilient agricultural practices, and next-generation agritech solutions that support environmental sustainability, economic resilience, and global food security. 
+     The conference is designed to facilitate high-level knowledge exchange, interdisciplinary collaboration, and evidence-based discussions that accelerate the adoption of climate-smart farming systems. Emphasis is placed on millet cultivation, soil and water conservation, biodiversity enhancement, climate-adaptive cropping systems, precision agronomy, and
+        <Link to="/"   className="
+             hover:text-accent hover:decoration-accent
+             transition-colors duration-300">
+digital agriculture innovations.</Link>  
+Through plenary sessions, keynote addresses, expert-led panels, technical workshops, and scientific research presentations, participants will gain strategic insights into emerging technologies, scalable climate-resilient models, and evolving global agricultural policies.
+
       </>,
       <>
         {/* From cutting-edge AI to advanced robotics, from cybersecurity trends to sustainable engineering—we curate thought-provoking content and create immersive spaces where innovation thrives. Explore our sessions to engage with the future of technology, exchange ideas with global experts, and drive impactful solutions across industries.{" "} */}
         <Link
-          to="/foodtech-conference-tracks/" 
+          to= "/millets-conference-tracks/"
           target="blank"
           rel="noopener noreferrer"
           className="text-accent font-bold"
@@ -51,7 +56,7 @@ const data = {
       // linkText: "Microbiome Science",
       // link: "/",
       suffix:
-       "Join global leaders and innovators in shaping the future of agriculture through regenerative agritech excellence..",
+       "Join global leaders and innovators in shaping the future of agriculture through millets and climate-resilient farming excellence..",
     },
   ],
 highlights: [
@@ -84,7 +89,7 @@ highlights: [
     title: "Scientific & Market Intelligence",
     description: "Explore the latest research findings, market trends, and commercialization pathways in regenerative agritech.",
     linkText: "View event schedule",
-    link:  "/foodtech-event-schedule",
+    link:  "/millets-event-schedule",
   },
   {
     title: "Collaboration & Partnership Platforms",
@@ -145,7 +150,7 @@ const AboutPublicHealth = () => {
       {/* Join Section */}
       <section className="mb-10 text-center w-full min-w-4xl px-2 md:px-12 lg:px-24">
         <h2 className="text-3xl font-bold text-one mb-4 w-full">
-          Join the Global Community at onMILLETS-2026 
+          Join the Global Community at on MILLETS-2026 
         </h2>
         {data.join.map((para, idx) => (
           <p
@@ -165,25 +170,25 @@ const AboutPublicHealth = () => {
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <User className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-             Agricultural and Regenerative Science Researchers
+           Agricultural and Climate-Resilient Science Researchers
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <BookOpen className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-          Agronomists, Soil Scientists, and Crop Specialists
+        Climate, Sustainability, and Environmental Professionals
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <Rocket className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-         Climate, Sustainability, and Environmental Professionals
+       AI, Data Analytics, and Digital Agriculture Experts
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <PackageSearch className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-             Farmers, Producers, and Agricultural Entrepreneurs
+            Food System and Agricultural Supply Chain Leaders
             </h3>
           </div>
         </div>

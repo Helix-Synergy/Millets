@@ -98,27 +98,28 @@ const AbstractSubmission = () => {
   };
 
 const presentationOptions = [
- "Microbial Ecology of Food Systems",
-  "Microbiome Sequencing & Metagenomics for Food Research",
-"Host–Microbe Interactions Influenced by Diet",
- "Metabolites, Enzymes & Nutrient Transformations",
-  "Microbial Dynamics in Food Safety",
-"Microbiome-Based Strategies for Food Spoilage Control",
- "Biopreservation-Microbes & Natural Antimicrobials",
- "Microbial Ecology of Food Systems - From Farm to Fork" ,
-  "Gut–Food Axis",
-  "Personalized Nutrition",
-  "Soil & Plant Microbiomes",
-  "Sustainable Agriculture & Food Production",
-  "Processing Technologies on Food Microbial Communities",
-  "Circular Bioeconomy & Waste Valorization",
-  "Foodborne Microbial Risks",
-  "Prebiotics, Synbiotics & Postbiotics",
-  "Fermented Foods - Health Benefits & Innovation",
-  "Ethical & Commercial Considerations in Microbiome",
-  "Microbiome Engineering",
-  "Quorum Sensing",
+  "Millet Biodiversity",
+  "Agroecology & Crop Physiology of Millets",
+  "Millet-Based Cropping Systems",
+  "Intercropping, Polyculture & Sustainable Intensification",
+  "Breeding Innovations & Stress-Tolerant Millet Varieties",
+  "Soil–Millet Interactions",
+  "Climate-Resilient Farming Models",
+  "Micro-Irrigation, Moisture Retention & Hydrology in Millets",
+  "Disaster-Resilient Agriculture",
+  "Precision Agriculture for Millets",
+  "AI/ML-Based Yield Forecasting & Pest Prediction",
+  "Post-Harvest Technologies",
+  "Millet Nutrition, Bioavailability & Health Benefits",
+  "Food Processing & Millet-Based Functional Foods",
+  "Millet Entrepreneurship",
+  "Millet Policy Frameworks",
+  "Smart Farm Management for Dryland Crops",
+  "Physiology of Millets Under Stress Conditions",
+  "3D Printing",
+  "Millet Malting & Brewing Science"
 ];
+
 
 
   return (

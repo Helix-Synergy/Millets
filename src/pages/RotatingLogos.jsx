@@ -2,201 +2,111 @@ import React, { useEffect, useState } from "react";
 import { Sparkle } from "lucide-react";
 import { Link } from "react-router-dom";
 // Images for agri
-import FoodProcessing from "../assets/tracks/FOOD processing technologies.jpeg";
-import FoodEngineering from "../assets/tracks/food engineering.jpeg"
-import Thermal  from "../assets/tracks/Thermal & non thermal preservation methods.jpeg";
-import FoodBio from "../assets/tracks/food biotechnology -enzymes &fermentation.jpeg";
-import Probiotics from "../assets/tracks/probiotics &functional food innovation.jpeg";
-import Alternative from "../assets/tracks/Alternative proteins plant based cultured&fermentation- derived.jpeg"
-import Nutra from "../assets/tracks/Nutraceuticals& bioactive compounds.png";
-import FoodSafety from "../assets/tracks/food safety management.jpeg"
-import FoodQuality from "../assets/tracks/food quality assurance& shelf line modeling.jpeg";
-import Standards from "../assets/tracks/standards &global regulartory compliances.jpeg"
-import FoodFraud from "../assets/tracks/food fraud dection &analytical technology.jpeg";
-import FoodProcessing1 from "../assets/tracks/food processing &green technologies.jpeg"
-import FoodWaste from "../assets/tracks/food waste reduction &circular food system.jpeg";
-import Smart from "../assets/tracks/smart biodergradable &edible packaging.jpeg"
-import climate from "../assets/tracks/climate smartfood system&life cycle assessment.jpeg";
-import iot1 from "../assets/tracks/IOT automation &smart manufacturing.jpeg"
-import DataAnalystic from "../assets/tracks/Data analytics for food innovation.jpeg"
-import DigitalTwins from "../assets/tracks/Digital twins predictive modeling in food processing.png";
-import Precison1 from "../assets/tracks/precision fermentation.jpeg"
-import Cold from "../assets/tracks/cold plasma preservation.jpeg"
+import img1 from "../assets/tracks/img1.jpeg";
+import img2 from "../assets/tracks/img2.jpeg"
+import img3  from "../assets/tracks/img3.jpeg";
+import img4 from "../assets/tracks/img4.jpeg";
+import img5 from "../assets/tracks/img5.jpeg";
+import img6 from "../assets/tracks/img6.jpeg"
+import img7 from "../assets/tracks/img7.jpeg";
+import img8 from "../assets/tracks/img8.jpeg"
+import img9 from "../assets/tracks/img9.jpeg";
+import img10 from "../assets/tracks/img10.jpeg"
+import img11 from "../assets/tracks/img11.jpeg";
+import img12 from "../assets/tracks/img12.jpeg"
+import img13 from "../assets/tracks/img13.jpeg";
+import img14 from "../assets/tracks/img14.jpeg"
+import img15 from "../assets/tracks/img15.jpeg";
+import img16 from "../assets/tracks/img16.jpeg"
+import img17 from "../assets/tracks/img17.jpeg"
+import img18 from "../assets/tracks/img18.jpeg";
+import img19 from "../assets/tracks/img19.jpeg"
+import img20 from "../assets/tracks/img20.jpeg"
 
 export const tracks = [
   {
-    image: FoodProcessing,
-    title: "Paradigms of Regenerative Agriculture",
+    image: img1,
+    title: "Millet Biodiversity",
     description: (
       <>
-        Explore transformative paradigms in regenerative agriculture that restore soil health, enhance biodiversity, and strengthen climate resilience. This track examines innovative practices, policy frameworks, and technologies empowering farmers to regenerate ecosystems, boost productivity, and build sustainable food systems while delivering economic, environmental, and social value for future-ready{" "}
+   Explore the rich diversity of millets, their role in sustainable agriculture, and nutritional significance. This track highlights conservation strategies, breeding innovations, and traditional knowledge, promoting resilient farming systems. Engage with experts to understand how{" "}
         <Link
-          to="/executive-panel-members/"
+          to="/millets-event-schedule"
           className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-        global agriculture systems worldwide.
-        </Link>
+        millet biodiversity 
+        </Link> supports food security, climate adaptation, and healthy diets globally.
    
       </>
     ),
   },
 
   {
-    image: FoodEngineering,
-    title: "Carbon, Microbes & Nutrient Cycling",
+    image: img2,
+    title: "Agroecology & Crop Physiology of Millets",
     description: (
       <>
-        This track explores the critical interactions between{" "}
+       This track delves into the{" "}
         <Link
-          to="/"
+          to="/about-millets-conclave"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-          carbon, soil microbes, and nutrient cycling.
+         agroecological
+        </Link>{" "}  practices and physiological traits of millets that enhance productivity and resilience. Focus areas include soil health, water use efficiency, stress tolerance, and crop management strategies. Participants will gain insights into sustainable millet cultivation and innovations supporting climate-resilient agriculture.
+      </>
+    ),
+  },
+
+  {
+    image: img3,
+    title: "Millet-Based Cropping Systems",
+    description: (
+      <>
+      Explore sustainable{" "}
+        <Link
+          to="/contact" 
+          className="hover:text-accent hover:decoration-accent
+             transition-colors duration-300"
+        >
+       millet-based cropping systems
+        </Link> that optimize productivity, soil health, and resource use efficiency. This track covers intercropping, crop rotation, and integrated farming approaches, highlighting strategies to enhance food security, diversify income, and build climate-resilient agricultural landscapes. Engage with innovations shaping sustainable millet cultivation.
+      </>
+    ),
+  },
+
+  {
+    image: img4,
+    title: "Intercropping, Polyculture & Sustainable Intensification",
+    description: (
+      <>
+       This track focuses on innovative cropping strategies that enhance productivity, biodiversity, and resource-use efficiency. Explore intercropping, polyculture, and sustainable intensification practices that improve soil health, resilience, and food security. Engage with research and case studies demonstrating how diversified systems support sustainable and  {" "}
+        <Link
+          to="/event_partners"
+          className="hover:text-accent hover:decoration-accent
+             transition-colors duration-300"
+        >
+   climate-smart agriculture.
         </Link>{" "}
-       Discover how microbial communities drive carbon sequestration, improve soil fertility, and optimize nutrient availability, enabling resilient agroecosystems, reduced emissions, and regenerative practices that enhance productivity while supporting long-term ecosystem health and climate-positive agriculture.
+  
       </>
     ),
   },
 
   {
-    image: Thermal,
-    title: "Agroecology",
+    image: img5,
+    title: "Breeding Innovations & Stress-Tolerant Millet Varieties",
     description: (
       <>
-      This track delves intoThis track delves into{" "}
-        <Link
-          to="/" 
-          className="hover:text-accent hover:decoration-accent
-             transition-colors duration-300"
-        >
-       agroecology
-        </Link> as a science and practice integrating ecology, culture, and farming systems. It highlights diversified cropping, local knowledge, and resilient landscapes that enhance biodiversity, soil health, and livelihoods while promoting sustainable, climate-adaptive, and socially inclusive agricultural systems.
-      </>
-    ),
-  },
-
-  {
-    image: FoodBio,
-    title: "Biodiversity",
-    description: (
-      <>
-        {" "}
-        <Link
-          to="/foodtech-orators"
-          className="hover:text-accent hover:decoration-accent
-             transition-colors duration-300"
-        >
-     Biodiversity 
-        </Link>{" "}
-        examines the role of biodiversity in regenerative agriculture, focusing on species-rich farms, habitat restoration, and ecosystem services. Learn how biodiversity enhances resilience, productivity, and climate adaptation while supporting pollinators, soil life, and balanced food systems across agricultural landscapes.
-      </>
-    ),
-  },
-
-  {
-    image: Probiotics ,
-    title: "Precision Agriculture for Regenerative Farming",
-    description: (
-      <>
-     This track focuses on{" "}
-        <Link
+    This track highlights advances in millet breeding, focusing on developing stress-tolerant, high-yielding varieties. Explore genomic tools, molecular breeding, and traditional knowledge integration to enhance resilience against drought, pests, and climate challenges. Engage with experts driving innovations that strengthen food security and sustainable millet production.{" "}
+        {/* <Link
           to="/foodtech-event-schedule"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
         precision agriculture 
-        </Link>{" "}
-       as a driver of regenerative farming. It highlights smart sensors, AI, drones, and decision tools that optimize resource use, rebuild soil health, cut emissions, and enhance productivity while supporting adaptive, climate-resilient farm management systems.
-      </>
-    ),
-  },
-
-  {
-    image: Alternative,
-    title: "AI, Remote Sensing & GIS for Soil, Crops",
-    description: (
-      <>
-     Examines advanced tools for monitoring soil health and crop performance. It highlights real-time insights, predictive analytics, and spatial intelligence that enable precision decisions, optimize inputs, enhance resilience, and accelerate regenerative outcomes across diverse agricultural landscapes.
-        {/* <Link
-          to="/foodtech-event-schedule"
-          className="hover:text-accent hover:decoration-accent
-             transition-colors duration-300"
-        >
-      
-        </Link>{" "} */}
-     
-      </>
-    ),
-  },
-
-  {
-    image: Nutra,
-    title: "IoT & Sensor Networks for Regenerative Farming",
-    description: (
-      <>
-This track explores how IoT devices and advanced sensor networks enable regenerative farming. Learn how real-time soil, water, crop, and climate data drive smarter decisions, improve soil health, optimize resources, reduce inputs, and support resilient, sustainable agricultural systems at scale.{" "}
-        <Link
-          to="/foodtech-orators" 
-          className="hover:text-accent hover:decoration-accent
-             transition-colors duration-300"
-        >
-       
-        </Link>{" "}
-      </>
-    ),
-  },
-
-  {
-    image:  FoodSafety,
-    title: "Robotics & Automation for Low-Impact Farming",
-    description: (
-      <>
-       Examines how{" "}
-        <Link
-          to="/contact"
-          className="hover:text-accent hover:decoration-accent
-             transition-colors duration-300"
-        >
-        robotics and automation
-        </Link>{" "}
-        are transforming low-impact farming. Discover autonomous machinery, precision robotics, and AI-driven systems that reduce soil compaction, minimize chemical use, lower labor intensity, and improve efficiency while supporting environmentally responsible and regenerative agricultural practices.
-      </>
-    ),
-  },
-
-  {
-    image: FoodQuality,
-    title: "Carbon Sequestration",
-    description: (
-      <>
-       This track focuses on{" "}
-        <Link
-          to="/venue"
-          className="hover:text-accent hover:decoration-accent
-             transition-colors duration-300"
-        >
-        carbon sequestration
-        </Link>{" "}
-      strategies in agriculture. Explore soil-based solutions, regenerative practices, measurement technologies, and policy frameworks that capture and store carbon, enhance soil fertility, reduce emissions, and create verifiable climate benefits while improving long-term farm productivity and resilience.
-      </>
-    ),
-  },
-
-  {
-    image: Standards,
-    title: "MRV Tools & Climate-Smart Agriculture",
-    description: (
-      <>
-      This track highlights MRV tools for climate-smart agriculture. Explore methods to measure, report, and verify emissions and outcomes using digital platforms, remote sensing, and data analytics—enabling transparency, credible carbon accounting, informed decision-making, and scalable adoption of sustainable farming practices.{" "}
-        {/* <Link
-          to="https://helixconferences.com/buy-a-ticket"
-          className="hover:text-accent hover:decoration-accent
-             transition-colors duration-300"
-        >
-       
         </Link>{" "} */}
  
       </>
@@ -204,80 +114,169 @@ This track explores how IoT devices and advanced sensor networks enable regenera
   },
 
   {
-    image: FoodFraud,
-    title: "Biochar, Composting & Biological Amendments",
+    image: img6,
+    title: "Soil–Millet Interactions",
     description: (
       <>
-        {" "}
-        {/* <Link
-          to="/"
+  Explores the dynamic relationship between millets and soil health, emphasizing nutrient cycling, soil fertility, and
+        <Link
+          to="/millets-orators"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-          Soil & Plant Microbiomes
-        </Link>  */}
-      Explores biochar, composting, and biological amendments as tools for regenerative agriculture. Learn how these inputs improve soil structure, enhance microbial activity, increase nutrient availability, sequester carbon, and reduce reliance on synthetic fertilizers while boosting long-term farm productivity.
+       microbiome interactions
+        </Link>{" "} Focus areas include sustainable soil management, organic amendments, and crop-soil feedbacks that enhance millet productivity. Engage with research advancing resilient, climate-smart, and resource-efficient millet cultivation systems.
+     
       </>
     ),
   },
 
   {
-    image: FoodProcessing1,
-    title: "Micro-Catchments, Drip Optimisations & Hydrology Mapping",
+    image: img7,
+    title: "Climate-Resilient Farming Models",
     description: (
       <>
-   This track focuses on {" "}
+This track focuses on farming strategies that enhance resilience to climate change. Explore adaptive millet-based systems, water-efficient practices, and risk management approaches that sustain productivity under extreme weather. Engage with innovations and case studies demonstrating how climate-smart agriculture ensures food security, environmental sustainability, and farmer livelihoods.{" "}
+        {/* <Link
+          to="/foodtech-orators" 
+          className="hover:text-accent hover:decoration-accent
+             transition-colors duration-300"
+        >
+       
+        </Link>{" "} */}
+      </>
+    ),
+  },
+
+  {
+    image:  img8,
+    title: "Micro-Irrigation, Moisture Retention & Hydrology in Millets",
+    description: (
+      <>
+      This track highlights efficient water management in millet cultivation. Focus areas include {" "}
         <Link
-          to="/foodtech-conference-tracks/" 
+          to="https://helixconferences.com/buy-a-ticket"
+          className="hover:text-accent hover:decoration-accent
+             transition-colors duration-300"
+        >
+     micro-irrigation techniques,
+        </Link>{" "} soil moisture conservation, and hydrological practices that optimize water use and enhance crop resilience. Engage with research and innovations promoting sustainable, water-smart millet farming in water-scarce and climate-vulnerable regions.
+      </>
+    ),
+  },
+
+  {
+    image: img9,
+    title: "Disaster-Resilient Agriculture",
+    description: (
+      <>
+      his track explores strategies to strengthen agriculture against natural disasters and climate extremes. Focus areas include resilient millet varieties, risk-adaptive cropping systems, and early-warning integration. Engage with research and innovations that enhance food security, protect farmer livelihoods, and build sustainable, {" "}
+        <Link
+          to="/about-millets-conclave"
+          className="hover:text-accent hover:decoration-accent
+             transition-colors duration-300"
+        >
+      disaster-resilient agricultural 
+        </Link>{" "} landscapes in vulnerable regions.
+     
+      </>
+    ),
+  },
+
+  {
+    image: img10,
+    title: "Precision Agriculture for Millets",
+    description: (
+      <>
+This track focuses on applying{" "}
+        <Link
+          to="/event_partners" 
+          className="hover:text-accent hover:decoration-accent
+             transition-colors duration-300"
+        >
+        precision agriculture technologies to millet
+        </Link>{" "} cultivation. Explore remote sensing, GPS-guided farming, soil and crop monitoring, and data-driven decision-making to optimize inputs, increase yields, and enhance sustainability. Engage with innovations shaping efficient, climate-smart, and resource-conserving millet production systems.
+  
+      </>
+    ),
+  },
+
+  {
+    image: img11,
+    title: "AI/ML-Based Yield Forecasting & Pest Prediction",
+    description: (
+      <>
+       This track explores the use of artificial intelligence and machine learning in {" "}
+        <Link
+          to="/"
+          className="hover:text-accent hover:decoration-accent
+             transition-colors duration-300"
+        >
+         millet agriculture.
+        </Link> 
+  Focus areas include predictive models for crop yields, early pest and disease detection, and data-driven decision support. Engage with cutting-edge innovations enhancing productivity, sustainability, and climate resilience in millet farming systems.
+      </>
+    ),
+  },
+
+  {
+    image: img12,
+    title: "Post-Harvest Technologies",
+    description: (
+      <>
+  This track focuses on innovations in millet post-harvest management, including storage, processing, and value addition. Explore techniques that reduce losses, enhance shelf-life, and improve product quality. Engage with research and technologies that strengthen food security, increase marketability, and promote sustainable, profitable millet value chains. {" "}
+        {/* <Link
+          to="/millets-conference-tracks/"" 
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
       micro-catchments
-        </Link>{" "}  drip irrigation optimization, and hydrology mapping for efficient water use. Discover techniques and digital tools that improve water capture, distribution, and monitoring, reduce losses, enhance crop resilience, and support sustainable, climate-adaptive farming systems.
+        </Link>{" "}   */}
+  
       
       </>
     ),
   },
 
   {
-    image: FoodWaste,
-    title: "Plant–Microbiome Engineering",
+    image: img13,
+    title: "Millet Nutrition, Bioavailability & Health Benefits",
     description: (
       <>
-  Explores{" "}
+This track explores the nutritional value of millets, focusing on bioavailability, micronutrients, and functional properties. Discuss the role of millets in promoting health, preventing lifestyle diseases, and supporting dietary diversity. Engage with research and innovations that enhance millet-based nutrition for sustainable and{" "}
         <Link
           to="https://helixconferences.com/buy-a-ticket"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-       plant–microbiome engineering
-        </Link> to enhance crop performance and resilience. Learn how beneficial microbes, root interactions, and biological innovations improve nutrient uptake, stress tolerance, disease resistance, and soil health—unlocking new pathways for sustainable and regenerative agriculture.
+        healthy diets.
+        </Link> 
+      
         
       </>
     ),
   },
 
   {
-    image: Smart,
-    title: "Biofertilisers, Biostimulants & Mycorrhizal Innovations",
+    image: img14,
+    title: "Food Processing & Millet-Based Functional Foods",
     description: (
       <>
-    This highlights {" "}
+   This track highlights innovations in millet processing and the development of functional foods. Focus areas include value addition, nutraceuticals, and product diversification to enhance health benefits. Engage with {" "}
         <Link
-          to="/foodtech-conference-tracks/" 
+          to= "/about-millets-conclave"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-         biofertilisers, biostimulants, and mycorrhizal
-        </Link> innovations for sustainable farming. Explore how these natural inputs enhance nutrient uptake, stimulate plant growth, improve soil health, boost crop resilience, and reduce dependency on chemical fertilizers, driving regenerative and eco-friendly agricultural practices.
-        
+        research and technologies 
+        </Link> that transform millets into safe, nutritious, and market-ready functional food products.
       </>
     ),
   },
 
   {
-    image: climate,
-    title: "Regenerative Pest Management",
+    image: img15,
+    title: "Millet Entrepreneurship",
     description: (
       <>
         {" "}
@@ -288,97 +287,98 @@ This track explores how IoT devices and advanced sensor networks enable regenera
         >
           Foodborne Microbial 
         </Link> */}
-       This track focuses on regenerative pest management strategies that balance crop protection with ecosystem health. Learn how integrated approaches, biological controls, habitat management, and precision monitoring reduce chemical use, enhance biodiversity, and promote resilient, sustainable farming systems.
+This track focuses on fostering entrepreneurship in the millet value chain. Explore opportunities in production, processing, marketing, and value-added millet products. Engage with success stories, business models, and innovations that empower farmers and startups, promote sustainable livelihoods, and drive growth in the millet-based economy.
      
       </>
     ),
   },
 
   {
-    image: iot1,
-    title: "Regenerative Horticulture, Agroforestry & Polyculture Systems",
+    image: img16,
+    title: "Millet Policy Frameworks",
     description: (
       <>
-Examines {" "}
+This track explores policies and regulatory frameworks that support millet cultivation, value addition, and market development. Focus areas include food security strategies, subsidies, climate-resilient agriculture incentives, and research support. Engage with policymakers, experts, and stakeholders shaping sustainable millet production and promoting millet-based {" "}
         <Link
-          to="/about-foodtech-conclave" 
+          to="/millets-orators" 
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-          regenerative horticulture, agroforestry, and polyculture systems. 
+           economic growth.
         </Link>
- Discover how diverse planting strategies, tree–crop integration, and multi-species cultivation enhance soil health, biodiversity, and ecosystem resilience while increasing productivity and promoting sustainable, climate-smart agricultural landscapes.
+
       </>
     ),
   },
 
   {
-    image: DataAnalystic,
-    title: "Livestock Integration, Holistic Grazing & Manure Circularity",
+    image: img17,
+    title: "Smart Farm Management for Dryland Crops",
     description: (
       <>
-      {" "}
-        {/* <Link
-          to="/foodtech-orators"
+      This track focuses on innovative farm management strategies for{" "}
+        <Link
+          to="/contact"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-          Fermented Foods – Health Benefits & Innovation
-        </Link>  */}
-      This track examines livestock integration, holistic grazing, and manure circularity in regenerative farming. Learn how strategic grazing, nutrient recycling, and livestock–crop synergy enhance soil fertility, boost pasture productivity, reduce waste, and support sustainable, climate-resilient agricultural systems.
+           dryland crops, 
+        </Link> 
+ including millets. Explore precision agriculture, water-efficient practices, soil health monitoring, and decision-support tools. Engage with research and technologies that enhance productivity, resilience, and sustainability in dryland farming systems under climate variability and resource constraints.
       </>
     ),
   },
 // Ethical
 
   {
-    image: DigitalTwins,
-    title: "Waste-to-Value Innovations in Farms",
+    image: img18,
+    title: "Physiology of Millets Under Stress Conditions",
     description: (
       <>
-     {" "}
-        {/* <Link
+     This track explores how millets respond physiologically to abiotic and biotic stresses, including drought, heat, and pest pressures. Focus areas include{" "}
+        <Link
           to="/"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-          microbiome research 
-        </Link>  */}
-This track highlights waste-to-value innovations in farming. Explore technologies and practices that convert agricultural residues, by-products, and organic waste into valuable resources like bioenergy, compost, and bio-based inputs—reducing waste, enhancing sustainability, and supporting circular, regenerative farm systems.
+          photosynthesis, 
+        </Link> 
+water-use efficiency, and adaptive mechanisms. Engage with research revealing insights into stress tolerance, resilience, and strategies to improve millet productivity under challenging environmental conditions.
       </>
     ),
   },
   // Microbiome Engineering
   
   {
-    image: Precison1,
-    title: "Regenerative Supply Chains & Market Incentives",
+    image: img19,
+    title: "3D Printing",
     description: (
       <>
- Explores    {" "}
+ This track explores innovations in  {" "}
         <Link
           to="https://helixconferences.com/buy-a-ticket"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-   regenerative supply chains and market incentives
-        </Link>  Discover strategies to connect farmers with sustainable markets, leverage carbon credits, promote eco-friendly certifications, and create economic models that reward regenerative practices while enhancing transparency, resilience, and long-term value across the agricultural ecosystem.
+  3D printing technology
+        </Link>  and its applications across industries. Focus areas include materials science, prototyping, manufacturing, and customized product development. Engage with research, case studies, and emerging trends demonstrating how 3D printing is transforming production, design, and sustainable manufacturing solutions.
       </>
     ),
   },
   {
-    image: Cold,
-    title: "Certification Frameworks for Regenerative Farming",
+    image: img20,
+    title: "Millet Malting & Brewing Science",
     description: (
       <>
-      This track focuses on {" "}
+    This track focuses on the malting and brewing potential of millets. Explore processes, enzymatic activities, fermentation techniques, and product development for traditional and modern beverages. Engage with innovations that enhance quality, flavor, and nutritional value, promoting millet-based malts and brews in the {" "}
         <Link
-          to="/foodtech-conference-tracks/" 
+          to="/about-millets-conclave" 
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-      certification frameworks for regenerative farming.
-        </Link>{" "} Explore standards, protocols, and verification methods that validate sustainable practices, ensure transparency, enhance market credibility, and incentivize farmers to adopt environmentally responsible, soil-friendly, and climate-smart agricultural approaches.
+      food & beverage industry.
+        </Link>{" "} 
+   
        
       </>
     ),
