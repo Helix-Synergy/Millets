@@ -12,7 +12,7 @@
 
 /* Page Backgrounds */
 .home {
-  background-image: url("https://www.foodinspiration.com/img/cache/DinnerFoodHackSummit.jpg-1600x900.jpg");
+  background-image: url("./assets/banner.png");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;

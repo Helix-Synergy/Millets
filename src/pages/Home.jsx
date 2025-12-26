@@ -14,7 +14,7 @@ const Home = () => {
         <div className="relative z-2 flex flex-col items-start px-1 md:px-8 mt-4 justify-center h-full text-lightGreen text-2xl md:text-3xl font-bold">
           
           <div className="flex flex-row items-end gap-4">
-            <h1 className="text-accent text-shadow-md font-bold text-5xl md:text-6xl">
+            <h1 className="text-coal text-shadow-md font-bold text-5xl md:text-6xl">
    April
             </h1>
 
@@ -32,7 +32,7 @@ const Home = () => {
        Millets & Climate-Resilient Agriculture Summit
           </h1>
 
-          <p className="text-2xl md:text-5xl text-accent">
+          <p className="text-2xl md:text-5xl text-coal">
       MILLETS-2026
           </p>
 

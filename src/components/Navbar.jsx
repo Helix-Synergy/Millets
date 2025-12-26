@@ -215,7 +215,7 @@ const Navbar = () => {
                   : "8rem",
               marginTop:
                 isOpen && window.innerWidth < 1024
-                  ? "0.5rem"
+                  ? "1rem"
                   : scrolled
                   ? "0rem"
                   : "1rem",
@@ -224,7 +224,7 @@ const Navbar = () => {
                   ? "none"
                   : scrolled
                   ? "none"
-                  : "2px solid black",
+                  : "2px solid #6F4E37",
               backgroundColor:
                 isOpen && window.innerWidth < 1024
                   ? "transparent"
@@ -237,6 +237,15 @@ const Navbar = () => {
                   : scrolled
                   ? "0px"
                   : "4px",
+                   
+    //                 transform:
+    //                    isOpen && window.innerWidth < 1024
+    //     ? "translateX(-10px)"   // 👈 mobile open
+    //     : scrolled
+    //     ? "translateX(0px)"     // center when scrolled
+    //     : "translateX(20px)",   // 👉 move right when top
+
+    // transition: "all 0.3s ease",
                    
             }}
           />

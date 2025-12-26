@@ -102,7 +102,7 @@ module.exports = {
         greenBrand: "#6F4E37",
 
         /* Backgrounds – Light Coffee */
-        primary: "#FAF7F2",      // Cream / milk foam
+        // primary: "#FAF7F2",      // Cream / milk foam
         secondary: "#F1ECE4",    // Latte beige
         coal: "#E6DED3",         // Light mocha
 
