@@ -170,7 +170,7 @@ This track focuses on farming strategies that enhance resilience to climate chan
     title: "Disaster-Resilient Agriculture",
     description: (
       <>
-      his track explores strategies to strengthen agriculture against natural disasters and climate extremes. Focus areas include resilient millet varieties, risk-adaptive cropping systems, and early-warning integration. Engage with research and innovations that enhance food security, protect farmer livelihoods, and build sustainable, {" "}
+      This track explores strategies to strengthen agriculture against natural disasters and climate extremes. Focus areas include resilient millet varieties, risk-adaptive cropping systems, and early-warning integration. Engage with research and innovations that enhance food security, protect farmer livelihoods, and build sustainable, {" "}
         <Link
           to="/about-millets-conclave"
           className="hover:text-accent hover:decoration-accent
