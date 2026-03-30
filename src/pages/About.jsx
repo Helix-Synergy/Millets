@@ -24,11 +24,10 @@ const data = {
     date: "25th - 27th Nov 2025",
     organizer: "Helix Conferences",
     description: [
-      <>
+      <div className="text-justify">
   
-   <Link to="/"   className="
-             hover:text-accent hover:decoration-accent
-             transition-colors duration-300">
+   <Link to="/"   className="hover:text-accent hover:decoration-accent
+             transition-colors duration-300 text-justify">
         The World Conference on Millets & Climate-Resilient Agriculture,</Link>  organized by Helix Conferences, is a distinguished international forum dedicated to advancing millet-based cropping systems, climate-resilient agricultural practices, and next-generation agritech solutions that support environmental sustainability, economic resilience, and global food security. 
      The conference is designed to facilitate high-level knowledge exchange, interdisciplinary collaboration, and evidence-based discussions that accelerate the adoption of climate-smart farming systems. Emphasis is placed on millet cultivation, soil and water conservation, biodiversity enhancement, climate-adaptive cropping systems, precision agronomy, and
         <Link to="/"   className="
@@ -37,7 +36,7 @@ const data = {
 digital agriculture innovations.</Link>  
 Through plenary sessions, keynote addresses, expert-led panels, technical workshops, and scientific research presentations, participants will gain strategic insights into emerging technologies, scalable climate-resilient models, and evolving global agricultural policies.
 
-      </>,
+  </div>,
       <>
         {/* From cutting-edge AI to advanced robotics, from cybersecurity trends to sustainable engineering—we curate thought-provoking content and create immersive spaces where innovation thrives. Explore our sessions to engage with the future of technology, exchange ideas with global experts, and drive impactful solutions across industries.{" "} */}
         <Link
@@ -129,12 +128,12 @@ const AboutPublicHealth = () => {
         </h1>
       </div>
 
-      <h1 className="text-4xl mt-2 font-bold text-one">
+      <h2 className="text-4xl mt-2 font-bold text-one">
    Fostering Collaboration Driving Sustainable Agricultural Impact
-      </h1>
+      </h2>
       <p className="text-center text-gray-600 text-3xl mb-6">
         <strong>
-          23<sup></sup> - 24<sup></sup> April 2026
+          26<sup></sup> - 27<sup></sup> April 2027
         </strong>
       </p>
 
@@ -150,7 +149,7 @@ const AboutPublicHealth = () => {
       {/* Join Section */}
       <section className="mb-10 text-center w-full min-w-4xl px-2 md:px-12 lg:px-24">
         <h2 className="text-3xl font-bold text-one mb-4 w-full">
-          Join the Global Community at on MILLETS-2026 
+          Join the Global Community at on MILLETS-2027
         </h2>
         {data.join.map((para, idx) => (
           <p

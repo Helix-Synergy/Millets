@@ -27,9 +27,9 @@ const Venue = () => {
  
           {/* Highlighted Venue List */}
           <h1 className="">Proposed Conference Venue</h1>
-          <h1 className="text-2xl md:text-2xl font-bold mb-8 text-left text-one">
+          <h2 className="text-2xl md:text-2xl font-bold mb-8 text-left text-one">
      Barcelona | Spain
-          </h1>
+          </h2>
           <ul className="mt-4 space-y-2 ">
             {venueList.map((item) => (
               <li
@@ -51,7 +51,7 @@ const Venue = () => {
  
       {/* CTA Button */}
       <Link to="/venue">
-        <button className="bg-accent text-white px-10 md:px-20 py-2 rounded-full mt-6 text-sm md:text-base hover:bg-one transition">
+        <button   aria-label="View All" className="bg-accent text-white px-10 md:px-20 py-2 rounded-full mt-6 text-sm md:text-base hover:bg-one transition">
           View All
         </button>
       </Link>

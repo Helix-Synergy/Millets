@@ -22,7 +22,7 @@ import img17 from "../assets/tracks/img17.jpeg"
 import img18 from "../assets/tracks/img18.jpeg";
 import img19 from "../assets/tracks/img19.jpeg"
 import img20 from "../assets/tracks/img20.jpeg"
-
+import Climate from "../assets/tracks/Cilmate.jpg"
 export const tracks = [
   {
     image: img1,
@@ -132,7 +132,7 @@ export const tracks = [
   },
 
   {
-    image: img7,
+    image: Climate,
     title: "Climate-Resilient Farming Models",
     description: (
       <>
@@ -452,7 +452,7 @@ const StaticTracks = () => {
                 <h3 className="text-xl text-gray-600 font-semibold mb-3">
                   {track.subtitle}
                 </h3>
-                <p className="text-md text-gray-800 leading-relaxed">
+                <p className="text-md text-gray-800 leading-relaxed text-justify">
                   {track.description}
                 </p>
               </div>

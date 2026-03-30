@@ -28,8 +28,8 @@ const Executive_members = () => {
         <h2 className="text-2xl text-one md:text-3xl font-bold mb-2">
           Meet Our Distinguished Panel Members
         </h2>
-        <p className="w-full md:w-2/3 text-sm md:text-base text-slate-600">
- Leading innovators, researchers, and industry experts from around the world sharing knowledge and Leading innovators, researchers, and industry experts from around the world sharing knowledge and advancing the future of millets, climate-resilient agriculture, and sustainable food systems at MILLETS-2026.
+        <p className="w-full md:w-2/3 text-sm md:text-base text-slate-600 text-justify" >
+ Leading innovators, researchers, and industry experts from around the world sharing knowledge and Leading innovators, researchers, and industry experts from around the world sharing knowledge and advancing the future of millets, climate-resilient agriculture, and sustainable food systems at MILLETS-2027.
         </p>
       </div>
 

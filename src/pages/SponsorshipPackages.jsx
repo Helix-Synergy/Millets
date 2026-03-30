@@ -113,7 +113,7 @@ const SponsorshipPackages = () => {
               <div className="bg-one/50 rounded-tl-xl rounded-br-full mb-2 p-2 flex flex-row items-center">
                 <img
                   src={pkg.badge}
-                  alt=""
+                  alt="Package Badge"
                   loading="lazy"
                   className="object-contain w-16 h-16"
                 />
@@ -135,7 +135,7 @@ const SponsorshipPackages = () => {
               target="blank"
               rel="noopener noreferrer"
             >
-              <button className="w-auto bg-one text-white px-8 py-2 rounded-full my-8">
+              <button  aria-label="Become a partner"  className="w-auto bg-one text-white px-8 py-2 rounded-full my-8">
                 Become a Partner
               </button>
             </a>
@@ -154,7 +154,7 @@ const SponsorshipPackages = () => {
               <div className="bg-one/50 rounded-tl-xl rounded-br-full mb-2 p-2 flex flex-row items-center justify-start gap-4">
                 <img
                   src={pkg.badge}
-                  alt=""
+                  alt="Package Badge"
                   // loading="lazy"
                   className="object-contain w-16 h-16"
                 />
@@ -187,7 +187,7 @@ const SponsorshipPackages = () => {
               target="blank"
               rel="noopener noreferrer"
             >
-              <button className="w-auto bg-one text-white px-8 py-2 rounded-full my-6">
+              <button  aria-label="Become a partner" className="w-auto bg-one text-white px-8 py-2 rounded-full my-6">
                 Become a Partner
               </button>
             </a>

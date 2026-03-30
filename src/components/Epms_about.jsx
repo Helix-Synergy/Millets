@@ -24,7 +24,7 @@ const Epms_about = () => {
       </div>
 
       <Link to="/executive-panel-members/">
-        <button className="bg-one text-white px-10 md:px-20 py-2 rounded-full mt-12 text-sm md:text-base">
+        <button  aria-label="View All" className="bg-one text-white px-10 md:px-20 py-2 rounded-full mt-12 text-sm md:text-base">
           View All
         </button>
       </Link>

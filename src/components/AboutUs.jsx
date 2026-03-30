@@ -10,7 +10,7 @@ const AboutUs = () => {
       {/* <div className="flex justify-center">
         <img
           src={about_img}
-          alt="Dental Conference 2026"
+          alt="Dental Conference 2027"
           loading="lazy"
           className="h-[50%] md:max-h-[50%] w-auto md:w-[80vh] md:mx-16 rounded-2xl object-cover"
         />
@@ -32,7 +32,7 @@ loading="lazy"
           <span className="text-one">Advancing Global Leadership  </span>{" "}
        in Millets & Climate-Resilient Agriculture
         </h1>
-        <p className="text-base my-2">
+        <p className="text-base my-2 text-justify">
      Welcome to the premier global platform for the   <Link to="https://helixconferences.com/buy-a-ticket"  className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">Millets & Climate-Resilient Agriculture Conference.</Link>  Our international summits convene leading experts and decision-makers driving advancements in millets cultivation, climate-resilient farming, sustainable food systems, and agri-biotechnology for nutrition security.
@@ -47,7 +47,7 @@ The conference brings together researchers, agronomists, farmers, policymakers, 
         </p>
 <p>“Empowering Sustainable Agriculture and Food Security Through Millets & Climate-Resilient Innovation”</p>
         <Link to="/about-millets-conclave">
-          <button className="flex bg-one text-white px-6 md:px-8 py-2 my-4 rounded-full text-sm md:text-base">
+          <button  aria-label="Know More" className="flex bg-one text-white px-6 md:px-8 py-2 my-4 rounded-full text-sm md:text-base">
             Know More
           </button>
         </Link>

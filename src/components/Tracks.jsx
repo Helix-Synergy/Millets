@@ -20,7 +20,7 @@ MILLETS- Tracks
           >
             <img
               src={icon}
-              alt=""
+              alt="Tracks Icon"
               className="h-8 w-8 object-contain shrink-0"
               loading="lazy"
             />
@@ -32,12 +32,12 @@ MILLETS- Tracks
       {/* Call-to-action Buttons */}
       <div className=" mt-10 md:mt-10 flex flex-col md:flex-row gap-4 justify-center">
         <Link to= "/millets-conference-tracks/">
-          <button className="bg-one text-white px-6 md:px-4 py-2 rounded-full text-sm md:text-base w-full md:w-auto text-center">
+          <button   aria-label="Submit abstract" className="bg-one text-white px-6 md:px-4 py-2 rounded-full text-sm md:text-base w-full md:w-auto text-center">
             Read More
           </button>
         </Link>
         <Link to="/abstract-submission">
-          <button className="border bg-black text-white px-6 md:px-4 py-2 rounded-full text-sm md:text-base w-full md:w-auto text-center">
+          <button   aria-label="Submit Abstract" className="border bg-black text-white px-6 md:px-4 py-2 rounded-full text-sm md:text-base w-full md:w-auto text-center">
             Submit Abstract
           </button>
         </Link>

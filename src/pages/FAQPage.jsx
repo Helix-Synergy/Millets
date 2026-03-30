@@ -10,22 +10,22 @@ const faqLinks = {
 
 export const faqData = [
   {
-    question: "What is MILLETS-2026?",
+    question: "What is MILLETS-2027?",
     answer:
-      "MILLETS-2026, officially titled the “Millets & Climate-Resilient Agriculture Summit”, is a premier international conference organized by Helix Conferences. It brings together agricultural scientists, climate experts, policymakers, farmers, agribusiness leaders, nutritionists, and researchers to explore the role of millets in sustainable agriculture, climate resilience, food security, and nutritional well-being.",
+      "MILLETS-2027, officially titled the “Millets & Climate-Resilient Agriculture Summit”, is a premier international conference organized by Helix Conferences. It brings together agricultural scientists, climate experts, policymakers, farmers, agribusiness leaders, nutritionists, and researchers to explore the role of millets in sustainable agriculture, climate resilience, food security, and nutritional well-being.",
   },
   {
-    question: "When and where will MILLETS-2026 take place?",
+    question: "When and where will MILLETS-2027 take place?",
     answer:
-      "MILLETS-2026 will take place in 2026. The exact dates and venue will be announced soon.",
+      "MILLETS-2027 will take place in 2027. The exact dates and venue will be announced soon.",
   },
   {
-    question: "What are the highlights of MILLETS-2026?",
+    question: "What are the highlights of MILLETS-2027?",
     answer:
       "Keynote addresses, expert-led scientific sessions, millet-based farming innovations, climate-resilient agriculture case studies, policy discussions, technology showcases, and global networking opportunities.",
   },
   {
-    question: "What conference tracks are featured at MILLETS-2026?",
+    question: "What conference tracks are featured at MILLETS-2027?",
     answer: (
       <>
         You can explore the full list of tracks here:{" "}
@@ -35,7 +35,7 @@ export const faqData = [
           rel="noopener noreferrer"
           className="text-blue-600 underline"
         >
-          MILLETS-2026 Tracks
+          MILLETS-2027 Tracks
         </a>
         .
       </>
@@ -55,7 +55,7 @@ export const faqData = [
     ),
   },
   {
-    question: "How can I submit an abstract for MILLETS-2026?",
+    question: "How can I submit an abstract for MILLETS-2027?",
     answer: (
       <>
         You can submit your abstract{" "}
@@ -87,14 +87,14 @@ export const faqData = [
       "Oral presentations are typically 15–20 minutes long, including Q&A. Final presentation guidelines will be shared after abstract acceptance.",
   },
   {
-    question: "Who will be attending MILLETS-2026?",
+    question: "Who will be attending MILLETS-2027?",
     answer:
       "Agricultural scientists, climate researchers, policymakers, farmers, agri-entrepreneurs, food and nutrition experts, sustainability leaders, and academicians from around the world.",
   },
   {
     question: "How many people usually attend the summit?",
     answer:
-      "MILLETS-2026 is expected to host 120+ international attendees, including speakers, delegates, exhibitors, and sponsors.",
+      "MILLETS-2027 is expected to host 120+ international attendees, including speakers, delegates, exhibitors, and sponsors.",
   },
   {
     question: "Can I register for multiple speaking sessions?",
@@ -174,6 +174,7 @@ const Faq = () => {
       {faqData.map((item, index) => (
         <div key={index} className="border-b border-gray-300 mb-4">
           <button
+           aria-label="Toggle FAQ Answer"
             className="w-full text-left py-4 px-2 font-medium text-lg flex justify-between items-center"
             onClick={() => toggle(index)}
           >
