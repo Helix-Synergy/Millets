@@ -2,27 +2,27 @@ import React, { useEffect, useState } from "react";
 import { Sparkle } from "lucide-react";
 import { Link } from "react-router-dom";
 // Images for agri
-import img1 from "../assets/tracks/img1.jpeg";
-import img2 from "../assets/tracks/img2.jpeg"
-import img3  from "../assets/tracks/img3.jpeg";
-import img4 from "../assets/tracks/img4.jpeg";
-import img5 from "../assets/tracks/img5.jpeg";
-import img6 from "../assets/tracks/img6.jpeg"
-import img7 from "../assets/tracks/img7.jpeg";
-import img8 from "../assets/tracks/img8.jpeg"
-import img9 from "../assets/tracks/img9.jpeg";
-import img10 from "../assets/tracks/img10.jpeg"
-import img11 from "../assets/tracks/img11.jpeg";
-import img12 from "../assets/tracks/img12.jpeg"
-import img13 from "../assets/tracks/img13.jpeg";
-import img14 from "../assets/tracks/img14.jpeg"
-import img15 from "../assets/tracks/img15.jpeg";
-import img16 from "../assets/tracks/img16.jpeg"
-import img17 from "../assets/tracks/img17.jpeg"
-import img18 from "../assets/tracks/img18.jpeg";
-import img19 from "../assets/tracks/img19.jpeg"
-import img20 from "../assets/tracks/img20.jpeg"
-import Climate from "../assets/tracks/Cilmate.jpg"
+import img1 from "../assets/tracks/img1.webp";
+import img2 from "../assets/tracks/img2.webp"
+import img3  from "../assets/tracks/img3.webp";
+import img4 from "../assets/tracks/img4.webp";
+import img5 from "../assets/tracks/img5.webp";
+import img6 from "../assets/tracks/img6.webp"
+import img7 from "../assets/tracks/img7.webp";
+import img8 from "../assets/tracks/img8.webp"
+import img9 from "../assets/tracks/img9.webp";
+import img10 from "../assets/tracks/img10.webp"
+import img11 from "../assets/tracks/img11.webp";
+import img12 from "../assets/tracks/img12.webp"
+import img13 from "../assets/tracks/img13.webp";
+import img14 from "../assets/tracks/img14.webp"
+import img15 from "../assets/tracks/img15.webp";
+import img16 from "../assets/tracks/img16.webp"
+import img17 from "../assets/tracks/img17.webp"
+import img18 from "../assets/tracks/img18.webp";
+import img19 from "../assets/tracks/img19.webp"
+import img20 from "../assets/tracks/img20.webp"
+import Climate from "../assets/tracks/Cilmate.webp"
 export const tracks = [
   {
     image: img1,
